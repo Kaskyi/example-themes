@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@import "theme";
+
+body {
+  background: $exl-background;
+}
+
+//@import "app/example-v2/example-v2-theme";
+@import "app/example-v2/example-v3-theme";
+@include example-v3-theme($exl-theme);

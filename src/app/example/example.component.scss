@@ -1,0 +1,13 @@
+@import "src/styles/theme";
+
+.card {
+  background: $exl-surface;
+}
+
+.link {
+  color: $exl-primary;
+}
+
+.button.secondary {
+  color: $exl-secondary;
+}

@@ -1,0 +1,34 @@
+// Surface color
+$exl-surface: white !default;
+
+// Background color
+$exl-background: lightgray !default;
+
+// Brand color
+$exl-primary: blue !default;
+
+// Accent color
+$exl-secondary: darkgrey !default;
+
+// Error color
+$exl-error: red !default;
+
+// Warning color
+$exl-warn: yellow !default;
+
+// Hint color
+$exl-hint: lightblue !default;
+
+// Success color
+$exl-success: green !default;
+
+$exl-theme: (
+  surface: $exl-surface,
+  background: $exl-background,
+  primary: $exl-primary,
+  secondary: $exl-secondary,
+  error: $exl-error,
+  warn: $exl-warn,
+  hint: $exl-hint,
+  success: $exl-success
+) !default;

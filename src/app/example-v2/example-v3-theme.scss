@@ -1,0 +1,19 @@
+
+
+@mixin example-v3-theme($theme) {
+  $e-surface: map-get($theme, surface);
+  $e-primary: map-get($theme, primary);
+  $e-secondary: map-get($theme, secondary);
+
+  .card {
+    background: $e-surface;
+  }
+
+  .link {
+    color: $e-primary;
+  }
+
+  .button.secondary {
+    color: $e-secondary;
+  }
+}

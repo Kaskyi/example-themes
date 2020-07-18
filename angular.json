@@ -17,6 +17,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/styles"
+              ]
+            },
             "outputPath": "dist/example-themes",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -27,8 +32,10 @@
               "src/favicon.ico",
               "src/assets"
             ],
+            "extractCss": true,
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              {"input": "src/prebuild-themes/_green-theme.scss", "lazy": true, "bundleName": "themes/green-theme"}
             ],
             "scripts": []
           },
